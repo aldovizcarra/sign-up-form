@@ -18,6 +18,7 @@ CSS Reset
 
 * {
   margin: 0;
+  padding: 0;
 }
 
 @media (prefers-reduced-motion: no-preference) {
