@@ -83,3 +83,22 @@ body {
   place-content: center;
   padding: 20px;
 }
+
+.odin-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: blueviolet;
+  padding: 5px;
+}
+
+.odin-logo img {
+  width: 70px;
+  height: auto;
+}
+
+.odin-logo p {
+  font-family: "norsebold", sans-serif;
+  font-size: 4.2rem;
+  color: #fff;
+}
