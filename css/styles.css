@@ -84,12 +84,19 @@ body {
   padding: 20px;
 }
 
+.image {
+  position: relative;
+}
+
 .odin-logo {
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: blueviolet;
   padding: 5px;
+  position: absolute;
+  top: 200px;
+  width: 100%;
 }
 
 .odin-logo img {
