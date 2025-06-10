@@ -140,3 +140,22 @@ body {
 .form-inputs {
   background-color: #fff;
 }
+
+@media (min-width: 768px) {
+  .image {
+    grid-column: 1;
+    grid-row: 1 / 4;
+  }
+  .description {
+    grid-column: 2;
+    grid-row: 1;
+  }
+  .form-inputs {
+    grid-column: 2;
+    grid-row: 2;
+  }
+  .button {
+    grid-column: 2;
+    grid-row: 3;
+  }
+}
