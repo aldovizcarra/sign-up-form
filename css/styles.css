@@ -126,3 +126,7 @@ body {
 .sign-up-form > * {
   grid-column: 1 / -1;
 }
+
+.description {
+  background-color: #f9fafb;
+}
