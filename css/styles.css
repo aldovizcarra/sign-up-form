@@ -96,6 +96,12 @@ body {
   bottom: 20px;
 }
 
+.img-credit,
+.img-credit a {
+  color: #fff;
+  font-size: 0.8rem;
+}
+
 .odin-logo {
   position: absolute;
   top: 200px;
