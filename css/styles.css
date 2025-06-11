@@ -91,6 +91,10 @@ body {
   position: relative;
 }
 
+.image img {
+  height: 100%;
+}
+
 .img-credit {
   position: absolute;
   bottom: 20px;
