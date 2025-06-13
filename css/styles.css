@@ -167,6 +167,10 @@ body {
   font-style: italic;
 }
 
+.description > p:first-child {
+  margin-bottom: 16px;
+}
+
 .button {
   background-color: #f9fafb;
 }
