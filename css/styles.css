@@ -158,6 +158,15 @@ body {
   padding: 80px 32px;
 }
 
+.description p,
+.description span {
+  font-weight: 500;
+}
+
+.description span {
+  font-style: italic;
+}
+
 .button {
   background-color: #f9fafb;
 }
