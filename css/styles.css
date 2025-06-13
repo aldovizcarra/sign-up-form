@@ -180,6 +180,11 @@ body {
   background-color: #fff;
 }
 
+.form-inputs > p:first-child {
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
 form div {
   display: flex;
   flex-direction: column;
