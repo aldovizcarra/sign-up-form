@@ -178,6 +178,7 @@ body {
 
 .form-inputs {
   background-color: #fff;
+  padding: 16px 32px 32px 32px;
 }
 
 .form-inputs > p:first-child {
