@@ -192,7 +192,9 @@ form div {
 }
 
 label {
+  font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
+  font-weight: 500;
 }
 
 @media (min-width: 768px) {
