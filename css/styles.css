@@ -190,6 +190,10 @@ form div {
   flex-direction: column;
 }
 
+label {
+  text-transform: uppercase;
+}
+
 @media (min-width: 768px) {
   .image {
     grid-column: 1;
