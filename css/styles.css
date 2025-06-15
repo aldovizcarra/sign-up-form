@@ -205,7 +205,9 @@ input {
 }
 
 input:focus {
+  border: 1px solid #244ed6;
   box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.15);
+  outline: none;
 }
 
 @media (min-width: 768px) {
