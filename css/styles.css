@@ -182,8 +182,9 @@ body {
 }
 
 .form-inputs > p:first-child {
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   font-weight: 500;
+  margin-bottom: 16px;
 }
 
 form div {
