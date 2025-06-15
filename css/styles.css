@@ -204,6 +204,10 @@ input {
   border-radius: 4px;
 }
 
+input:focus {
+  box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.15);
+}
+
 @media (min-width: 768px) {
   .image {
     grid-column: 1;
