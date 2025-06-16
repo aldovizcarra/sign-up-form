@@ -205,6 +205,17 @@ input {
   padding: 5px 10px;
 }
 
+input:focus {
+  border: 1px solid #244ed6;
+  box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.15);
+  outline: none;
+}
+
+input:valid:not(:placeholder-shown):focus {
+  border-color: #28a745;
+  box-shadow: 0 0 0 3px rgba(40, 167, 69, 0.1);
+}
+
 input:invalid:placeholder-shown {
   border-color: #e5e7eb;
   box-shadow: none;
@@ -215,15 +226,9 @@ input:invalid:not(:placeholder-shown) {
   box-shadow: 4px 4px 12px rgba(220, 53, 69, 0.1);
 }
 
-input:valid:not(:placeholder-shown):focus {
-  border-color: #28a745;
-  box-shadow: 0 0 0 3px rgba(40, 167, 69, 0.1);
-}
-
 input:invalid:placeholder-shown:focus {
-  border: 1px solid #244ed6;
+  border-color: #244ed6;
   box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.15);
-  outline: none;
 }
 
 @media (min-width: 768px) {
