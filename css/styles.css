@@ -220,7 +220,7 @@ input:valid:not(:placeholder-shown):focus {
   box-shadow: 0 0 0 3px rgba(40, 167, 69, 0.1);
 }
 
-input:focus {
+input:invalid:placeholder-shown:focus {
   border: 1px solid #244ed6;
   box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.15);
   outline: none;
