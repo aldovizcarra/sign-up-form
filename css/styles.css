@@ -215,7 +215,7 @@ input:invalid:not(:placeholder-shown) {
   box-shadow: 4px 4px 12px rgba(220, 53, 69, 0.1);
 }
 
-input:valid:not(:placeholder-shown) {
+input:valid:not(:placeholder-shown):focus {
   border-color: #28a745;
   box-shadow: 0 0 0 3px rgba(40, 167, 69, 0.1);
 }
