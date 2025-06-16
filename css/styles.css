@@ -205,6 +205,16 @@ input {
   padding: 5px 10px;
 }
 
+input:invalid:placeholder-shown {
+  border-color: #e5e7eb;
+  box-shadow: none;
+}
+
+input:invalid:not(:placeholder-shown) {
+  border-color: #bb1921;
+  box-shadow: 4px 4px 12px rgba(220, 53, 69, 0.1);
+}
+
 input:focus {
   border: 1px solid #244ed6;
   box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.15);
