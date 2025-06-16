@@ -210,6 +210,10 @@ input:focus {
   outline: none;
 }
 
+input:invalid {
+  border: 1px solid #bb1921;
+}
+
 @media (min-width: 768px) {
   .image {
     grid-column: 1;
