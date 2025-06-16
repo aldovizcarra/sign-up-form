@@ -202,6 +202,7 @@ label {
 input {
   border: 1px solid #e5e7eb;
   border-radius: 4px;
+  padding: 5px 10px;
 }
 
 input:focus {
