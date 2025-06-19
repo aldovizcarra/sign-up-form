@@ -206,6 +206,10 @@ input {
   padding: 5px 10px;
 }
 
+input::placeholder {
+  font-size: 0.75rem;
+}
+
 input:focus {
   border: 1px solid #244ed6;
   box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.15);
