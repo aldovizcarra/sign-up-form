@@ -278,6 +278,7 @@ input:invalid:placeholder-shown:focus {
   .form-inputs {
     grid-column: 2;
     grid-row: 2;
+    padding-right: clamp(5rem, 10vw, 12rem);
   }
   .button {
     grid-column: 2;
