@@ -274,6 +274,8 @@ input:invalid:placeholder-shown:focus {
   .description {
     grid-column: 2;
     grid-row: 1;
+    padding-right: clamp(5rem, 10vw, 12rem);
+    line-height: 1.2;
   }
   .form-inputs {
     grid-column: 2;
