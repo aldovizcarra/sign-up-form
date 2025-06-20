@@ -146,7 +146,7 @@ body {
   width: 100%;
   max-width: 900px;
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 1fr 1fr;
 }
 
 .sign-up-form > * {
