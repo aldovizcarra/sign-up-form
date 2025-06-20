@@ -286,7 +286,7 @@ input:invalid:placeholder-shown:focus {
   form {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    column-gap: 58px;
+    column-gap: clamp(0.875rem, 3vw, 3rem);
   }
   label {
     font-size: 10px;
