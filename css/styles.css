@@ -288,4 +288,7 @@ input:invalid:placeholder-shown:focus {
     grid-template-columns: 1fr 1fr;
     column-gap: 58px;
   }
+  label {
+    font-size: 10px;
+  }
 }
