@@ -282,4 +282,9 @@ input:invalid:placeholder-shown:focus {
     grid-column: 2;
     grid-row: 3;
   }
+  form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 58px;
+  }
 }
