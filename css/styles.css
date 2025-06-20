@@ -291,4 +291,7 @@ input:invalid:placeholder-shown:focus {
   label {
     font-size: 10px;
   }
+  input {
+    padding: 0 0 0 10px;
+  }
 }
