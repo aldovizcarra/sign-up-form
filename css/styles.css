@@ -288,6 +288,12 @@ input:invalid:placeholder-shown:focus {
     grid-template-columns: 1fr 1fr;
     column-gap: clamp(0.875rem, 3vw, 3rem);
   }
+  form div {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-bottom: 14px;
+  }
   label {
     font-size: 10px;
   }
