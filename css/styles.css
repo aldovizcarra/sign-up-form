@@ -81,7 +81,7 @@ body {
 .container {
   display: grid;
   place-content: center;
-  padding: 20px;
+  padding: 16px;
 }
 
 .image {
@@ -267,6 +267,9 @@ input:invalid:placeholder-shown:focus {
 }
 
 @media (min-width: 768px) {
+  .container {
+    padding: 16px 20px 0 20px;
+  }
   .image {
     grid-column: 1;
     grid-row: 1 / 4;
