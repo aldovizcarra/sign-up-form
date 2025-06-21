@@ -309,5 +309,6 @@ input:invalid:placeholder-shown:focus {
   }
   input {
     padding: 0 0 0 10px;
+    margin: 0 12px 14px 0;
   }
 }
