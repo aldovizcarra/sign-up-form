@@ -302,7 +302,7 @@ input:invalid:placeholder-shown:focus {
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
-    margin-bottom: 14px;
+    margin: 0;
   }
   label {
     font-size: 10px;
