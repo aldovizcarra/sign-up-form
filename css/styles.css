@@ -258,7 +258,6 @@ input:invalid:not(:placeholder-shown):focus {
 
 input:valid:not(:placeholder-shown):focus {
   border-color: #28a745;
-  box-shadow: 0 0 0 3px rgba(40, 167, 69, 0.1);
 }
 
 input:invalid:placeholder-shown:focus {
