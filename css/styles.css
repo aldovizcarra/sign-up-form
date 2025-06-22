@@ -93,6 +93,8 @@ body {
 
 .image img {
   height: 100%;
+  max-height: 500px;
+  width: 100%;
   object-fit: cover;
 }
 
@@ -272,6 +274,10 @@ input:invalid:placeholder-shown:focus {
   .image {
     grid-column: 1;
     grid-row: 1 / 4;
+  }
+  .image img {
+    height: 100%;
+    max-height: 100%;
   }
   .description {
     grid-column: 2;
